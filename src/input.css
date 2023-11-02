@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .input-facebook {
+      @apply border border-gray-300 rounded-md w-full h-14 mb-3 px-4 py-3.5;
+    }
+}
+
+@layer components {
+    .criar-conta {
+      @apply border rounded-md text-lg px-4 font-bold text-white bg-criar-conta h-12 flex justify-center items-center;
+    }
+}
